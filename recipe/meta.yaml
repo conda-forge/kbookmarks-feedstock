@@ -1,5 +1,5 @@
 {% set name = "kbookmarks" %}
-{% set version = "5.65.0" %}
+{% set version = "5.66.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kbookmarks-{{ version }}.tar.xz
-  sha256: c00a04d77ce2b4744feb5ae43f50f8ae5c18b752eae52a8f4d9db47046daf18a
+  sha256: b225463ec0fe2424a1f5e70c83b02e3ece6a3ca80832cd2621732d18d7160a43
 
 build:
   number: 0
