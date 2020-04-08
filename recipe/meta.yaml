@@ -1,5 +1,5 @@
 {% set name = "kbookmarks" %}
-{% set version = "5.67.0" %}
+{% set version = "5.68.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kbookmarks-{{ version }}.tar.xz
-  sha256: 5c6853f7d3d10fb3997393e8347bf790d98cb1c2ceb1a6a292fa27302a3a005e
+  sha256: 80dc06188a5e1d960d46f527bd82d9b79df75a785164fa29a088a7b705abbf84
 
 build:
   number: 0
@@ -48,7 +48,7 @@ about:
   license: LGPL-v2.1-or-later
   license_family: GPL
   license_file: COPYING.LIB
-  summary: 'Bookmarks management library'
+  summary: Bookmarks management library
   description: |
     KBookmarks lets you access and manipulate bookmarks stored using the XBEL format. The most
     common use for bookmarks is web browsers, but this can also be useful in any application
