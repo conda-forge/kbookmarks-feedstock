@@ -45,7 +45,7 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kbookmarks/html/index.html
-  license:GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
+  license: GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
   license_file:
     - LICENSES/GPL-2.0-or-later.txt
     - LICENSES/LGPL-2.0-only.txt
