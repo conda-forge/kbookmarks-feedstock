@@ -1,5 +1,5 @@
 {% set name = "kbookmarks" %}
-{% set version = "5.73.0" %}
+{% set version = "5.74.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kbookmarks-{{ version }}.tar.xz
-  sha256: b925ec1b8a1b4a2b7f2526fdbc7761de065b3c9573e41ac274773ed1b576aa51
+  sha256: d72d6ea4c97757dd940353c2b70ef1b8645ae1a9659bfaf1236dc90df3a3eac2
 
 build:
   number: 0
@@ -45,9 +45,13 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kbookmarks/html/index.html
-  license: LGPL-v2.1-or-later
-  license_family: GPL
-  license_file: COPYING.LIB
+  license: GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
+  license_file:
+    - LICENSES/GPL-2.0-or-later.txt
+    - LICENSES/LGPL-2.0-only.txt
+    - LICENSES/LGPL-2.0-or-later.txt
+    - LICENSES/LGPL-3.0-only.txt
+    - LICENSES/LicenseRef-KDE-Accepted-LGPL.txt
   summary: Bookmarks management library
   description: |
     KBookmarks lets you access and manipulate bookmarks stored using the XBEL format. The most
