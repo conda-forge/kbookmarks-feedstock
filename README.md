@@ -3,11 +3,13 @@ About kbookmarks
 
 Home: https://api.kde.org/frameworks/kbookmarks/html/index.html
 
-Package license: LGPL-v2.1-or-later
+Package license: GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-3.0-only AND LicenseRef-KDE-Accepted-LGPL
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kbookmarks-feedstock/blob/master/LICENSE.txt)
 
 Summary: Bookmarks management library
+
+Development: https://cgit.kde.org/kbookmarks.git/tree
 
 KBookmarks lets you access and manipulate bookmarks stored using the XBEL format. The most
 common use for bookmarks is web browsers, but this can also be useful in any application
